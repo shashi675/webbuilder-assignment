@@ -1,0 +1,22 @@
+
+@import '../../App.scss';
+
+.youMayLike {
+    margin-top: 50px;
+
+    p {
+        font-size: 2rem;
+    }
+    div.cards {
+        display: flex;
+        justify-content: space-between;
+
+        @include tablet {
+            flex-wrap: wrap;
+        }
+
+        @include mobile {
+            flex-direction: column;
+        }
+    }
+}

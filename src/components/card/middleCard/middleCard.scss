@@ -1,0 +1,42 @@
+
+@import '../../../App.scss';
+
+.middleCard {
+    width: 60%;
+
+    @include mobile {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    div {
+        margin: 1em;
+        p.heading {
+            font-weight:900;
+            display: inline;
+        }
+        p {
+            display: inline;
+        }
+    }
+    div {
+        margin: 1em;
+
+        p.mainHighilights {
+            font-weight:900;
+            display: block;
+        }
+        .pd-20 {
+            margin-left: 20px;
+        }
+    }
+    div.show-more {
+        display: flex;
+        align-items: center;
+        span {
+
+        }
+        img {
+
+        }
+    }
+}

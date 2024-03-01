@@ -1,0 +1,45 @@
+
+@import '../../App.scss';
+
+.footer {
+    background: #212731;
+    display: flex;
+    gap: 20%;    
+    padding: 40px;
+    align-items: flex-start;
+    min-height: 14em;
+    margin-top: 1.25em;
+
+    @include mobile {
+        flex-direction: column;
+    }
+
+
+    div {
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: space-around;
+
+        @include mobile {
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: #B6BDC4;
+            @include mobile {
+                margin-bottom: 3px;
+            }
+            img {
+                width: 15px;
+                height: 9px;
+                margin-left: 5px;
+
+            }
+        }
+        p.heading {
+            color: #FFFFFF;
+            margin-bottom: 8px;
+        }
+    }
+}

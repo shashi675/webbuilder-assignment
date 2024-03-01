@@ -1,0 +1,59 @@
+
+@import '../../App.scss';
+
+.card {
+    position: relative;
+    margin-top: 40px;
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 2em;
+    padding-bottom: 1em;
+    justify-content: space-between;
+
+    @include mobile {
+        flex-direction: column;
+    }
+
+    span.number {
+        display: inline-block;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+        border: 1px solid #E1E4E6;
+        position: absolute;
+        top: 40px;
+        left: -14px;
+        text-align: center;
+
+
+        span.text {
+            font-family: Inter;
+            font-size: 20px;
+            font-weight: 400;
+            line-height: 28px;
+            letter-spacing: 0em;
+            text-align: left;
+        }
+    }
+
+    div.top-left {
+        position: absolute;
+        top: -5px;
+        left: -5px;
+        background: #FF7724;
+        border-radius: 0px 8px 8px 0px;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+        color: #FFFFFF;
+
+        img {
+            width: 20px;
+            height: 20px;
+        }
+        span {
+            padding-left: 5px;
+        }
+    }
+}

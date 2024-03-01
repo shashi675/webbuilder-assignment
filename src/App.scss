@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    box-sizing: 0;
+}
+
+body {
+    background: #FBFCFD;
+    color: #4B5665;
+    font-family: "Inter", sans-serif;
+}
+
+.main-container {
+    padding-inline: 5vw;
+}
+
+@mixin mobile {
+    @media (max-width: 730px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (max-width: 968px) {
+        @content;
+    }
+}

@@ -1,0 +1,32 @@
+
+.card4 {
+    .off {
+        background: #F2F4F7;
+        width: fit-content;
+        padding: 5px;
+        border-radius: 4px;
+    }
+    div {
+        div.card4 {
+            background: #FFF4ED;
+            border-radius: 12px;
+            padding: 5px;
+
+            span.num {
+                background: #FFFFFF;
+                color: #1B88F4;
+                padding: 5px;
+                margin-right: 8px;
+                border-radius: 4px;
+            }
+        }
+    }
+    div.blue-tick {
+        div {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            margin-left: 0;
+        }
+    }
+}
